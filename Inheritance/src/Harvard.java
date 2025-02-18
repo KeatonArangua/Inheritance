@@ -2,12 +2,14 @@ public class Harvard extends Ivy
 	{
 		
 		
-		public static void admitApplicants()
+		public void admitApplicants()
 		{
+			
 			System.out.println("3%! Does anyone actually get in here?!");
+			super.admitApplicants();
 		}
 		
-		public static void locate()
+		public void locate()
 		{
 			System.out.println("Cambridge, MA. Great city!");
 		}
