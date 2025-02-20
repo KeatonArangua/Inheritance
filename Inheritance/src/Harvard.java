@@ -1,17 +1,18 @@
 public class Harvard extends Ivy
 	{
-		
+		private String nameIt ; 
 		
 		public void admitApplicants()
 		{
-			
-			System.out.println("3%! Does anyone actually get in here?!");
+			;
+			System.out.println("3 percent! Does anyone actually get in here?!");
 			super.admitApplicants();
 		}
 		
-		public void locate()
+		public void locate(String a)
 		{
-			System.out.println("Cambridge, MA. Great city!");
+			nameIt = a;
+			System.out.println(a + " is located in Cambridge, MA. Great city!");
 		}
 		
 		public void tellHistory()
